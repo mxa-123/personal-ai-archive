@@ -5,7 +5,7 @@
 
 ## 1. 仓库地址
 - 本地路径：`E:/WorkBuddy/2026-10-23-21-40-32/personal-ai-archive`
-- 远程地址（推送后生效）：`https://github.com/{{你的用户名}}/personal-ai-archive`
+- 远程地址（推送后生效）：`https://github.com/mxa-123/personal-ai-archive`
 - 可见性：公开（public），按你的要求
 - ⚠️ 实际远程推送**未自动完成**：本会话的 GitHub 写入通道（gh CLI / GitHub MCP 工具）当前不可用，
   我没有伪造成功。最小发布步骤见第 5 节，约 1 分钟。
@@ -51,7 +51,7 @@
 cd E:/WorkBuddy/2026-10-23-21-40-32/personal-ai-archive
 gh repo create personal-ai-archive --public --source=. --remote=origin --push
 # 若已登录 gh 且仓库已存在，改为：
-# git remote add origin https://github.com/你的用户名/personal-ai-archive
+# git remote add origin https://github.com/mxa-123/personal-ai-archive
 # git push -u origin main
 ```
 > 前提：本机已 `gh auth login`（或配置好 Git 凭据）。换到 GitHub MCP 可用的会话重跑原提示词也可自动建仓。

@@ -9,7 +9,7 @@
 
 【档案位置】（二选一，优先本地路径，读取更快且无需联网）
 - 本地路径：E:\WorkBuddy\2026-10-23-21-40-32\personal-ai-archive
-- GitHub 原始入口：https://raw.githubusercontent.com/{{你的GitHub用户名}}/personal-ai-archive/main/AI-INDEX.md
+- GitHub 原始入口：https://raw.githubusercontent.com/mxa-123/personal-ai-archive/main/AI-INDEX.md
 
 【加载步骤】
 1. 读取 AI-INDEX.md，按其中 tag / access / path 列表，加载 identity/、workflow/、memory/、skills/ 下的文件。
