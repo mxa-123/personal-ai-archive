@@ -1,0 +1,24 @@
+# 敏感信息：绝对禁止提交
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets.json
+credentials.json
+token.txt
+*.token
+
+# 本地产物
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+*.log
+
+# 编辑器临时文件
+*.swp
+*~
+
+# 个人身份原始文件（如有单独导出）
+private/
