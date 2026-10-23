@@ -62,6 +62,11 @@ https://raw.githubusercontent.com/{owner}/personal-ai-archive/main/AI-INDEX.md�
 - 原始内容：`https://raw.githubusercontent.com/{owner}/personal-ai-archive/main/{path}`
 - 回写：见第 4 节。
 
+### 2.5 DSH（DeepSeek Harness，本地桌面端）
+- 独立提示词见 [`dsh-prompt.md`](./dsh-prompt.md)：复制其中代码块到 DSH 的「系统提示 / 角色设定」或首条消息即可接入。
+- DSH 跑在同一台 Windows 主机上，**优先读取本地仓库路径** `E:\WorkBuddy\2026-10-23-21-40-32\personal-ai-archive`；无文件权限时退回 GitHub 原始 URL。
+- 若 DSH 无自动写回能力，让它把建议追加内容以 Markdown 片段返回，由本人或 WorkBuddy 合并提交。
+
 ---
 
 ## 3. 面向"记忆型 Agent"的数据格式（Meta Muse / OpenAI Dots 等）
